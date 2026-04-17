@@ -7,7 +7,8 @@ while A < B:
         A+=3
     elif A%2 !=0:
         A*=2     
-    if A < B:
-        Q.append(A)
+    if A > B:
+        break
+    Q.append(A)
 
 print(*Q)
